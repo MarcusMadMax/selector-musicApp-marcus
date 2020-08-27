@@ -1,0 +1,201 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.25em;
+  color: #FFF;
+}
+
+p {
+  color: #FFF;
+  font-size: 0.8em;
+}
+
+header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 5em;
+}
+
+header .logo img {
+  width: 8em;
+}
+
+header .fa-plus-circle, header .fa-times-circle {
+  position: absolute;
+  font-size: 2.2em;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  right: 0;
+  color: #86809C;
+}
+
+.App {
+  position: relative;
+  background-color: #2D283E;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.App main {
+  position: relative;
+  border: 3px solid #564F70;
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 90vw;
+  height: 90vh;
+  overflow: auto;
+}
+
+.mainPage main .artist {
+  position: relative;
+  background-color: #211D2E;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+.mainPage main .artist img {
+  width: 100%;
+  border-radius: 0.3em;
+}
+
+.mainPage main .artist h1 {
+  text-transform: uppercase;
+  margin-top: 0.5em;
+}
+
+.mainPage main .artist hr {
+  height: .1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0.8em 0;
+}
+
+.mainPage main .artist footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 1em;
+  width: 100%;
+}
+
+.mainPage main .artist footer .fa-edit, .mainPage main .artist footer .fa-trash-alt {
+  color: #211D2E;
+  background-color: #86809C;
+  width: 2.3em;
+  line-height: 2.3;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.mainPage main .artist footer .fa-trash-alt {
+  margin-left: 1em;
+}
+
+.genre {
+  display: block;
+  text-transform: uppercase;
+  color: #FFF;
+  border-radius: 6px;
+  padding: .5em 2em;
+}
+
+.rock {
+  background-color: #B9012D;
+}
+
+.metal {
+  background-color: #443841;
+}
+
+.acid-jazz {
+  background-color: #DF791B;
+}
+
+.new-age {
+  background-color: #3D8374;
+}
+
+.edm {
+  background-color: #033767;
+}
+
+.addArtist main h1, .updateArtist main h1 {
+  color: #FFF;
+  text-align: center;
+  border-bottom: 1px solid #564F70;
+  padding: .5em 0;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.addArtist main form, .updateArtist main form {
+  width: 90%;
+  margin: 1em auto;
+}
+
+.addArtist main form label, .updateArtist main form label {
+  display: inline-block;
+  color: #FFF;
+  margin: 1em 0 .5em 0;
+  text-transform: uppercase;
+}
+
+.addArtist main form input, .addArtist main form select, .updateArtist main form input, .updateArtist main form select {
+  background-color: #FFF;
+  color: #86809C;
+  width: 100%;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.addArtist main form :focus, .updateArtist main form :focus {
+  outline: none;
+}
+
+button {
+  font-size: 1em;
+  color: #211D2E;
+  background-color: #86809C;
+  font-weight: 700;
+  padding: .5em;
+  border-radius: 5px;
+  margin-top: 1em;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
